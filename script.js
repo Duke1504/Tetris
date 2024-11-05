@@ -79,7 +79,7 @@ function rotateShape(shape) {
 function removePreviousShape() {
     for (let row of tetrisPlaygroundTarget.children) {
         for (let cell of row.children) {
-            cell.style.backgroundColor = ''; // Очищаем цвет всех ячеек
+            cell.style.backgroundColor = '';
         }
     }
 }
